@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/wasd0109/api-challenge/static/css/main.bfeec70c.chunk.css",
+    "main.js": "/wasd0109/api-challenge/static/js/main.39c26ea4.chunk.js",
+    "main.js.map": "/wasd0109/api-challenge/static/js/main.39c26ea4.chunk.js.map",
+    "runtime-main.js": "/wasd0109/api-challenge/static/js/runtime-main.2c8f2811.js",
+    "runtime-main.js.map": "/wasd0109/api-challenge/static/js/runtime-main.2c8f2811.js.map",
+    "static/js/2.80c279ed.chunk.js": "/wasd0109/api-challenge/static/js/2.80c279ed.chunk.js",
+    "static/js/2.80c279ed.chunk.js.map": "/wasd0109/api-challenge/static/js/2.80c279ed.chunk.js.map",
+    "index.html": "/wasd0109/api-challenge/index.html",
+    "precache-manifest.2b494993ace7fbbe196907ce7adb2a5c.js": "/wasd0109/api-challenge/precache-manifest.2b494993ace7fbbe196907ce7adb2a5c.js",
+    "service-worker.js": "/wasd0109/api-challenge/service-worker.js",
+    "static/css/main.bfeec70c.chunk.css.map": "/wasd0109/api-challenge/static/css/main.bfeec70c.chunk.css.map",
+    "static/js/2.80c279ed.chunk.js.LICENSE.txt": "/wasd0109/api-challenge/static/js/2.80c279ed.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/wasd0109/api-challenge/static/media/background.67285e64.bmp",
+    "static/media/App.css": "/wasd0109/api-challenge/static/media/star-jedi.7c622ae5.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2c8f2811.js",
+    "static/js/2.80c279ed.chunk.js",
+    "static/css/main.bfeec70c.chunk.css",
+    "static/js/main.39c26ea4.chunk.js"
+  ]
+}
