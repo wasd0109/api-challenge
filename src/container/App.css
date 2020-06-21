@@ -1,0 +1,9 @@
+@font-face {
+  font-family: "Star Wars Jedi";
+  src: url("star-jedi.ttf");
+}
+
+#title {
+  font-family: "Star Wars Jedi";
+  color: rgb(229, 177, 58);
+}
