@@ -11,7 +11,7 @@ function CardList({ list }) {
     );
   } else {
     return (
-      <div className="md:flex md:flex-wrap">
+      <div className="md:flex md:flex-wrap justify-evenly">
         {list.map((people) => (
           <Card
             key={people.name}
