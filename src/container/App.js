@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import CardList from "../components/CardList";
-import SearchBox from "../components/SearchBar";
+import SearchBar from "../components/SearchBar";
 import "./App.css";
 
 export class App extends Component {
@@ -9,7 +9,14 @@ export class App extends Component {
 
     this.state = {
       peopleList: [],
+      searchField: "",
     };
+
+    this.handleSearchBar = this.handleSearchBar.bind(this);
+  }
+
+  handleSearchBar(event) {
+    this.setState({ searchField: event.target.value });
   }
 
   componentDidMount() {
@@ -26,14 +33,16 @@ export class App extends Component {
   }
 
   render() {
-    const { peopleList } = this.state;
+    const filteredRobots = this.state.peopleList.filter((people) =>
+      people.name.toLowerCase().includes(this.state.searchField.toLowerCase())
+    );
     return (
       <div className="">
         <h1 className="text-base md:text-3xl text-center m-2 " id="title">
           Star Wars Character Database
         </h1>
-        <SearchBox />
-        <CardList list={peopleList} />
+        <SearchBar onChange={this.handleSearchBar} />
+        <CardList list={filteredRobots} />
       </div>
     );
   }
