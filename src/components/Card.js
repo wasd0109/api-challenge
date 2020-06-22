@@ -9,9 +9,9 @@ function Card({ name, gender, height, mass, birth_year }) {
       <h1 className="">
         Name: <span className="font-extrabold">{name}</span>
       </h1>
-      <p>Gender: {gender}</p>
-      <p>Height: {height}</p>
-      <p>Weight: {mass}</p>
+      <p class="uppercase">Gender: {gender}</p>
+      <p>Height: {height}cm</p>
+      <p>Weight: {mass}kg</p>
       <p>Birth year: {birth_year}</p>
     </div>
   );
