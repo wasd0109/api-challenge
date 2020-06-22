@@ -17,7 +17,7 @@ function CardList({ list }) {
             key={people.name}
             name={people.name}
             gender={people.gender}
-            height={people.gender}
+            height={people.height}
             mass={people.mass}
             birth_year={people.birth_year}
           />
