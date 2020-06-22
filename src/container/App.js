@@ -41,7 +41,7 @@ export class App extends Component {
         <h1 className="text-base md:text-3xl text-center m-2 " id="title">
           Star Wars Character Database
         </h1>
-        <SearchBar onChange={this.handleSearchBar} />
+        <SearchBar onSearchChange={this.handleSearchBar} />
         <CardList list={filteredRobots} />
       </div>
     );
